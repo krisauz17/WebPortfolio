@@ -5,6 +5,13 @@ header {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     
 }
+img {
+    width:auto;
+    height:auto;
+    border-radius: 15%;
+    
+
+}
 main {
     width:100%;
     height:100vh;

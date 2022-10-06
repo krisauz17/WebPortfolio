@@ -86,8 +86,8 @@ main {
     justify-items:center;
 }
 .skill {
-    /* grid-column-start: 1;
-    grid-column-end: 4; */
+    grid-column-start: 1;
+    grid-column-end: 4;
 }    
  .skill1 { 
     display: grid;
@@ -154,8 +154,8 @@ li {
     justify-items: center;
 }
 .EQ {
-    /* grid-column-start: 1;
-    grid-column-end: 4; */
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
 .box1{
     display: grid;
@@ -197,7 +197,26 @@ li {
     color: white;
     padding: 0.25em;
 }
+/* Grid for projects */
 
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0.2em;
+    align-items: stretch;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    justify-items: center;
+}
+.grid-item {
+    text-align: center;
+    padding: 0.2em;
+}
+.grid-header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+/* grid ends */
 
 footer{
     width: 100%;

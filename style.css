@@ -57,7 +57,7 @@ p{
     line-height: 1.5em;
 }
 
-img {
+.myphoto img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -218,9 +218,20 @@ li {
 }
 /* grid ends */
 
+.project-photos img {
+    width: auto;
+    height: 250px;
+    border-radius: 5%;
+}
+.pro-des p{
+        font-size:x-small; 
+}
+
 footer{
     width: 100%;
     height:100vh;
     background-color:rgb(91, 59, 122);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
+/* work on media query on devices below width < 600px */
